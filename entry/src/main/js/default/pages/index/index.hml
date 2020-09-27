@@ -1,6 +1,11 @@
-<div class="container">
-    <text class="title">
-        Hello {{title}}
-    </text>
-    <input class="btn" value="点我" type="button" onclick="clickAction"/>
+<div class="container1">
+    <div class="container2">
+        <picker-view class="pv1" range="{{picker1range}}" selected="1" onchange="picker1change"/>
+        <text class="txt">
+            分
+        </text>
+        <image class="img" src="/common/icon.png" />
+        <picker-view class="pv2" range="{{picker2range}}" selected="1" onchange="picker2change"/>
+    </div>
+    <input class="btn" value="点击开始" type="button" onclick="clickAction"/>
 </div>
